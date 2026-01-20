@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pg8000
+python-jose[cryptography]
+passlib[bcrypt,argon2]
+argon2-cffi
+python-multipart
+python-dotenv
+pydantic[email]
+requests
+jinja2
+supabase

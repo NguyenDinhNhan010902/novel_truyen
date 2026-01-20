@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark Theme Default based on Reference Images */
+  --background: #13131a;
+  /* Dark Blue-Black */
+  --foreground: #ffffff;
+
+  --card: #1c1c24;
+  --card-foreground: #ffffff;
+
+  --popover: #1c1c24;
+  --popover-foreground: #ffffff;
+
+  --primary: #4f46e5;
+  /* Indigo-600 */
+  --primary-foreground: #ffffff;
+
+  --secondary: #272732;
+  --secondary-foreground: #ffffff;
+
+  --muted: #9ca3af;
+  --muted-foreground: #6b7280;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #2d2d3a;
+  --input: #2d2d3a;
+  --ring: #6366f1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
